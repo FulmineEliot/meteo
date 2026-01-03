@@ -118,7 +118,7 @@
 
   .drop-down {
       position: relative;
-      display: block;
+      display: fixed;
       flex-direction: column;
       background-color: #007fff;
       overflow: auto;
