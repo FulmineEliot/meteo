@@ -99,11 +99,14 @@
           color: #ffffff;
       }
   .daydescription{
-     margin-top: 20px;
-     padding: 0 20px;
-     font-size: 16px;
-     line-height: 1.5;
-     display:block;
+    margin-top: 20px;   /* Spazio sopra il P */
+    padding: 0 20px;    /* Margine interno orizzontale */
+    font-size: 16px;
+    line-height: 1.5;
+    display: block;     /* Assicurati che sia un blocco */
+    position: relative; /* Non fixed, così resta dentro il drop-down */
+    clear: both;        /* Evita che resti accanto agli altri div fluttuanti */
+    text-align: center;
 
   }
   .daytimes {
