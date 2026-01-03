@@ -118,7 +118,7 @@
 
   .drop-down {
       position: relative;
-      display: none;
+      display: fixed;
       flex-direction: column;
       background-color: #007fff;
       overflow: auto;
@@ -151,7 +151,7 @@
 }
 
   .show {
-      display: fixed;
+      display: flex;
   }
   
   .cities {
