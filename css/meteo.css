@@ -98,7 +98,14 @@
           background-color: blue;
           color: #ffffff;
       }
-  
+  .daydescription{
+     margin-top: 20px;
+     padding: 0 20px;
+     font-size: 16px;
+     color: #eaeaea;
+     line-height: 1.5;
+
+  }
   .daytimes {
           position: relative;
           margin: 0 auto;
